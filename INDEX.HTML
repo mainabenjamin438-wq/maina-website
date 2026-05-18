@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>maina website design</title>
+        <link rel="stylesheet" href="STYLE.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header" id="header">
+            <nav>
+                <h2 class="logo">Benjamin maina</h2>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#SERVICES">SERVICES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <img src="photo.jpg.jpg">
+                <h1>Maina Benjamin website</h1>
+                <p>Making website is now one of thr easiest thing in the world. <br> 
+                    you just need to learn HTML, CSS, Javascript and you are good to go.</p>
+                <a href="about.html" class="hero-btn">visit me to know more</a>
+            </div>
+        </section>
+
+        <!----SERVICES--->
+
+    <section class="SERVICES" id="SERVICES">
+        <h1>My services</h1>
+        <p> ratione. Dolores dicta iure atat
+            es odio obcaecati corrupti. Dolorus sint!</p>
+
+            <div class="row">
+                <div class="course-col">
+                <h3>Website Design</h3>
+                    <p>i created clean and resposinsive website using HTML and CSS. <br>
+                        My websiteare Designed to work on both phones and Computers, providing a professional and modern appearance
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>learning & Technology Guidance</h3>
+                    <p>I enjoy helping beginners understand technology concepts, basic coding and digital skils in a simple way.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Basic software Support</h3>
+                    <p>I help users with basic computer and phone troubleshooting, software setup and simple technical Guidance.</p>
+                </div>
+            </div>
+    </section>
+
+<!-----Cumpus---->
+<section class="cumpus">
+    <h1>I'm maina Benjamin</h1>
+    <p> This web was created to showcase my journey, my projects, my skils and the services i offer</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="one.jpg.jpg">
+                    <div class="layer">
+                        <h3>KENYA</h3> 
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="main.jpg.jpg">
+                    <div class="layer">
+                        <h3>KENYA</h3> 
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="second.jpg.jpg">
+                    <div class="layer">
+                        <h3>KENYA</h3> 
+                    </div>
+                </div>
+            </div>
+           
+            
+                
+</section>
+<!------about us-->
+<section class="ABOUT" id="about">
+                <div class="me">
+                    <h4>ABOUT ME</h4>
+                  <P>I am passionate about technology, web development and software creation. <br> 
+                    I enjoy learning new skils and bulding modern websites </P>
+                    <p>Apart from coding, i also enjoy teamwork, creative thinking and <br> 
+                    explore new technology trend. and create opportunities for young people</p>
+                </div>
+         
+</section>
+<!-----CONTACT--->
+<section class="CONTACT" id="contact">
+    <h1>Contact me</h1>
+       <p> Email: mainabenjamin438@gmail.com</p>  
+       </a>
+   
+       <a href="https://wa.me/254111823818">
+        <button>Contact on Whats app</button>
+            <div class="icon">
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-whatsapp"></i>
+
+            </div>
+</section>
+
+<!---footer-->
+<footer>
+    <p>@2026 Maina Portfolio. All Rights Reserved</p>
+</footer>
+
+
+<!-----Javascript for Toggle Menu---->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right = "0";
+            }
+            function hideMenu(){
+                navlinks.style.right = "-220px"
+            }
+
+        </script>
+
+        </body>
+    </html>
